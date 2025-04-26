@@ -35,6 +35,7 @@ The solution contains:
 - **Maintainability**: Simplified feature additions without system breakage
 
 ## 📂 Solution Structure
+```csharp
 /Solution
 │
 ├── Core
@@ -58,7 +59,7 @@ The solution contains:
 │ └── Startup.cs
 │
 └── README.md
-
+```
 ## 🚀 How to Run the Project
 1.Clone the repository.
 
