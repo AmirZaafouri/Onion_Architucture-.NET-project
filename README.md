@@ -27,6 +27,13 @@ The solution contains:
 | **Application**    | Service interfaces, DTOs, business rules                                 |
 | **Infrastructure** | Repositories, Database Context (EF Core)                                 |
 | **Presentation**   | ASP.NET Core MVC UI, communicates with Application Layer                 |
+```csharp
+[ Presentation Layer (ASP.NET MVC) ]
+         ↓
+[ Application Core (Services, Interfaces, Domain) ]
+         ↓
+[ Infrastructure Layer (Database, Repositories, UnitOfWork) ]
+```
 
 ### 🔥 Key Benefits
 - **Decoupled Code**: Clear layer responsibilities, no direct infrastructure-core dependencies
